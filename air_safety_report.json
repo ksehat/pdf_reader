@@ -1,0 +1,119 @@
+{
+  'Type of Event': [
+    {
+      'type': 'checkbox',
+      'options': [
+        'ASR',
+        'AIRPROX/ATC',
+        'TCAS RA',
+        'WAKE TURBULENCE',
+        'BIRD STRIKE'
+      ]
+    }
+  ],
+  'PIC Name': [
+    {
+      'type': 'text'
+    }
+  ],
+  'Emp. No1': [
+    {
+      'type': 'text'
+    }
+  ],
+  'CM 2': [
+    {
+      'type': 'text'
+    }
+  ],
+  'Emp. No2': [
+    {
+      'type': 'text'
+    }
+  ],
+  'Other Crew': [
+    {
+      'type': 'text'
+    }
+  ],
+  'Emp. No3': [
+    {
+      'type': 'text'
+    }
+  ],
+  'Date of Occurrence': [
+    {
+      'yy': [
+        {
+          'type': 'text'
+        }
+      ],
+      'mm': [
+        {
+          'type': 'text'
+        }
+      ],
+      'add': [
+        {
+          'type': 'text'
+        }
+      ]
+    }
+  ],
+  'UTC Time': [
+    {
+      'type': 'text'
+    },
+    {
+      'type': 'checkbox',
+      'options': [
+        'DAY',
+        'NIGHT'
+      ]
+    }
+  ],
+  'Flight No.': [
+    {
+      'type': 'text'
+    }
+  ],
+  'Route': [
+    {
+      'FROM': [
+        {
+          'type': 'text'
+        }
+      ]
+    },
+    {
+      'TO': [{'type': 'text'}]
+    },
+    {
+      'DIVERTED TO': [{'type': 'text'}]
+    }
+  ],
+  'Squack': [{'type': 'text'}],
+  'A/C TYPE': [{'type': 'text'}],
+  'Registration': [{'type': 'text'}],
+  'No. of': [{'PAX': [{'type': 'text'}]},{'CREW': [{'type': 'text'}]}],
+  'Fuel Jettisoned': [{'type': 'text'}],
+  'Altitude': [{'type': 'text'}],
+  'SPEED / MACH NO.': [{'type': 'text'}],
+  'A/C Weight': [{'type': 'text'}],
+  'TECH LOG Ref': [{'TECH LOG PAGE NO.': [{'type': 'text'}]},{'ITEM NO': [{'type': 'text'}]}],
+  'Flight Phase': [{'type': 'checkbox','options': ['TOWING','CLIMB','PARKING','CRUISE','PUSHBACK','DESCENT','TAXI OUT','HOLDING','TAKE OFF','APPROACH (BELOW 1500FT)','INITIAL CLIMB (BELOW 1500FT)','LANDING']}],
+  'LOCATION': [{'AIRPORT': [{'type': 'text'}]},{'STAND': [{'type': 'text'}]},{'RUNWAY': [{'type': 'text'}]},{'GEOGRAPHICAL POSITION': [{'type': 'text'}]}],
+  'MET': [{'type': 'checkbox','options': ['IMC','VMC']}],
+  'ACTUAL WX': [{'type': 'text'}],
+  'SIONIFICANT WX': [{'type': 'checkbox','options': ['MODERATE','SEVERE','RAIN','HAIL','SNOW','ICING','TURBULENCE','STANDING WATER','WINDSHEAR']}],
+  'RUNWAY Condition': [{'type': 'checkbox','options': ['DRY','WET','ICE','SNOW','SLUSH']}],
+  'AIRCRAFT Configuration': [{'A/P': [{'type': 'text'}]},{'A/THR': [{'type': 'text'}]},{'GEAR': [{'type': 'text'}]},{'FLAP': [{'type': 'text'}]},{'SLAT': [{'type': 'text'}]},{'SPOILERS': [{'type': 'text'}]}],
+  'EVENT SUMMARY': [{'type': 'text'}],
+  'ACTION TAKEN, RESULT AND ANY SUBSWQUENT EVENT (S)': [{'type': 'text'}],
+  'OTHER INFORMATION AND SUGGESTIONS FOR PREVENTETIVE ACTIONS': [{'type': 'text'}],
+
+
+
+
+
+}
